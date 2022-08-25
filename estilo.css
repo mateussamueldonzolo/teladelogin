@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #26C9FF;
+	font-family: arial;
+	color: white;
+}
+
+form{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.card{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background: transparent;
+	height: 520px;
+	width: 900px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.50);
+}
+
+.banner{
+	background-image: url(../itens/login.gif);
+	background-size: cover; 
+	background-position:  center;
+	background-repeat: no-repeat;
+}
+
+.content{
+	background: #ddd;
+}
+
+.content .texto{
+	text-align: center;
+	color: #407BFF;
+}
+
+.card-group{
+	margin: auto;
+	width: 90%;
+	height: 300px;
+	display: block;
+	text-align: center;
+}
+
+.card-group input{
+	width: 80%;
+	height: 40px;
+	margin: 1em;
+	border-radius: 10px;
+	border: 0;
+	padding: 5px;
+	border: 2px solid transparent;
+	outline: none;
+}
+
+.card-group input:focus{
+	border: 2px solid #407BFF;
+}
+
+button{
+	width: 80%;
+	height: 50px;
+	margin: 1em;
+	border-radius: 10px;
+	font-size: 17px;
+	cursor: pointer;
+	background: #8CB0FF;
+	border: 0;
+	color: white;
+}
+
+fieldset{
+	color: black;
+	margin: auto;
+	width: 70%;
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+	margin-bottom: 0;
+}
+
+#btn{
+	background: transparent;
+	border: 2px solid #121212;
+	color: #121212;
+	transition: .2s ease-in-out;
+}
+
+#btn:hover{
+	background: #121212;
+	border: 2px solid transparent;
+	color: white;
+}
+
+.card-group p{
+	margin: auto;
+	width: 80%;
+	color: #121212;
+}
